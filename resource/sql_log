@@ -1,0 +1,11 @@
+小学 1599
+初中 1153
+高中 712
+
+select grade,count(*) from keqiao_user GROUP BY grade order BY id
+
+小学	1599
+初中	1153
+高中	712
+
+
